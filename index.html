@@ -126,25 +126,6 @@
             cursor: pointer;
         }
 
-        .carousel .carousel-control-button.left {
-            clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
-            top: calc(var(--_radius) - var(--_height) / 2);
-            left: 0;
-        }
-
-        .carousel:has(.carousel-control-button.left input:checked) {
-            --carousel-direction-animation-play-state: running;
-        }
-
-        .carousel .carousel-control-button.right {
-            clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-            top: calc(var(--_radius) - var(--_height) / 2);
-            right: 0;
-        }
-
-        .carousel:has(.carousel-control-button.right input:checked) {
-            --carousel-direction-animation-play-state: paused;
-        }
 
         .carousel .carousel-rotation-direction {
             --_direction-animation-play-state: var(--carousel-direction-animation-play-state);
@@ -369,3 +350,4 @@
 
 
 </html>
+
